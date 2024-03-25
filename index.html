@@ -10,11 +10,14 @@
 
 <body>
     <header>
-        <h1>SANTI</h1>
+        <a href="index.html">
+            <img src="logo.png" alt="Logo de la empresa">
+        </a>
+        <h1>TuNombre</h1>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Acerca de</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
@@ -22,20 +25,47 @@
     </header>
 
     <main>
-        <section>
+        <section class="hero">
+            <img src="imagen-hero.jpg" alt="Imagen de fondo">
+            <h1>Tu slogan</h1>
+            <p>Tu propuesta de valor.</p>
+            <a href="#" class="boton">Más información</a>
+        </section>
+
+        <section class="seccion-gris">
             <h2>Sección 1</h2>
             <p>Contenido de la sección 1.</p>
         </section>
 
-        <section>
+        <section class="seccion-blanca">
             <h2>Sección 2</h2>
             <p>Contenido de la sección 2.</p>
+        </section>
+
+        <section class="seccion-gris">
+            <h2>Testimonios</h2>
+            <ul class="testimonios">
+                <li>
+                    <p>“Tu testimonio 1.”</p>
+                    <strong>- Nombre del cliente</strong>
+                </li>
+                <li>
+                    <p>“Tu testimonio 2.”</p>
+                    <strong>- Nombre del cliente</strong>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
         <p>Derechos de autor &copy; 2024 TuNombre</p>
+        <ul class="redes-sociales">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
     </footer>
+
 </body>
 
 </html>
